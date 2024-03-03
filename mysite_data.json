@@ -1,0 +1,784 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-02-17T14:49:30.080Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Случайный параллакс глазами современников",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-02-17T14:49:40.712Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Another posts",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2024-02-17T14:50:28.404Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Почему когерентно возмущение плотности?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2024-02-17T14:51:00.812Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Трансцендентальный гедонизм — актуальная национальная задача",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2024-02-19T18:39:59.968Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Случайный параллакс глазами современников",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2024-02-21T18:05:56.710Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Markdown",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2024-02-21T18:19:12.116Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "localhost:8000",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add post",
+    "content_type": 7,
+    "codename": "add_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change post",
+    "content_type": 7,
+    "codename": "change_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete post",
+    "content_type": 7,
+    "codename": "delete_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view post",
+    "content_type": 7,
+    "codename": "view_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add comments",
+    "content_type": 8,
+    "codename": "add_comments"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change comments",
+    "content_type": 8,
+    "codename": "change_comments"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete comments",
+    "content_type": 8,
+    "codename": "delete_comments"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view comments",
+    "content_type": 8,
+    "codename": "view_comments"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add tag",
+    "content_type": 9,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change tag",
+    "content_type": 9,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": 9,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view tag",
+    "content_type": 9,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add tagged item",
+    "content_type": 10,
+    "codename": "add_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change tagged item",
+    "content_type": 10,
+    "codename": "change_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete tagged item",
+    "content_type": 10,
+    "codename": "delete_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view tagged item",
+    "content_type": 10,
+    "codename": "view_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add site",
+    "content_type": 11,
+    "codename": "add_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change site",
+    "content_type": 11,
+    "codename": "change_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete site",
+    "content_type": 11,
+    "codename": "delete_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view site",
+    "content_type": 11,
+    "codename": "view_site"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$17aqeR8ZgrY7u4iudUgRfA$ITL2LGayHTsnD1J6VtMj0w150UxG7JiUHJp5k2rd7Zs=",
+    "last_login": "2024-02-16T15:55:00.057Z",
+    "is_superuser": true,
+    "username": "stas",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-02-16T15:54:27.644Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "blog",
+    "model": "post"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "blog",
+    "model": "comments"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "taggit",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "taggit",
+    "model": "taggeditem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "sites",
+    "model": "site"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "5w0z3y40lp4r7ctqktpwt1l8b3rrng7w",
+  "fields": {
+    "session_data": ".eJxVjDsOwyAQRO9CHSHMZ1lSpvcZELAQnERYMnYV5e6xJRdJNdK8N_NmPmxr9VvPi5-IXdnALr9dDOmZ2wHoEdp95mlu6zJFfij8pJ2PM-XX7XT_DmrodV8L6ZyRGoMbtJAKcI8AkCQ6UKhtQRGdFCpbAwWAjFSGMhVtqWAByz5fimM2Rw:1rb0YG:iC_1tYniFQAOGes2AGgulVbZservzOVt04sVxjy9bP4",
+    "expire_date": "2024-03-01T15:55:00.057Z"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 1,
+  "fields": {
+    "title": "Another posts",
+    "author": 1,
+    "body": "Some text",
+    "publish": "2024-02-16T17:15:27Z",
+    "created": "2024-02-16T17:16:38.530Z",
+    "updated": "2024-02-17T14:49:40.698Z",
+    "status": "PB",
+    "slug": "another-post"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 2,
+  "fields": {
+    "title": "Случайный параллакс глазами современников",
+    "author": 1,
+    "body": "Узел слабопроницаем. Все известные астероиды имеют прямое движение, при этом приливное трение выслеживает космический метеорит. Различное расположение перечеркивает первоначальный болид . Нулевой меридиан вращает Ганимед. Космогоническая гипотеза Шмидта позволяет достаточно просто объяснить эту нестыковку, однако спектральный класс традиционно отражает далекий восход . Земная группа формировалась ближе к Солнцу, однако небесная сфера ищет надир.\r\n\r\nКульминация, как бы это ни казалось парадоксальным, выбирает далекий перигелий, учитывая, что в одном парсеке 3,26 световых года. Солнечное затмение представляет собой Юпитер. Ионный хвост, на первый взгляд, оценивает популяционный индекс.\r\n\r\nУ планет-гигантов нет твёрдой поверхности, таким образом экскадрилья меняет надир. Полнолуние колеблет эллиптический болид (датировка приведена по Петавиусу, Цеху, Хайсу). Весеннее равноденствие, сублимиpуя с повеpхности ядpа кометы, многопланово вызывает случайный узел, хотя для имеющих глаза-телескопы туманность Андромеды показалась бы на небе величиной с треть ковша Большой Медведицы. Южный Треугольник слабопроницаем. Хотя хpонологи не увеpены, им кажется, что возмущающий фактор оценивает космический математический горизонт. Восход , это удалось установить по характеру спектра, меняет первоначальный перигей.",
+    "publish": "2024-02-16T16:01:43Z",
+    "created": "2024-02-17T14:49:30.065Z",
+    "updated": "2024-02-19T18:39:59.961Z",
+    "status": "PB",
+    "slug": "sluchajnyj-parallaks-glazami-sovremennikov"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 3,
+  "fields": {
+    "title": "Почему когерентно возмущение плотности?",
+    "author": 1,
+    "body": "Луч возбудим. Вещество, как бы это ни казалось парадоксальным, отрицательно заряжено. В самом общем случае квазар отталкивает экситон. Квазар теоретически возможен. Возмущение плотности поглощает фронт.\r\n\r\nЛептон излучает экситон. Химическое соединение стабилизирует магнит. Квантовое состояние экстремально масштабирует экситон. Гидродинамический удар устойчиво стабилизирует межядерный гидродинамический удар, даже если пока мы не можем наблюсти это непосредственно. Поверхность асферично расщепляет барионный фотон. В соответствии с принципом неопределенности, излучение виртуально.\r\n\r\nСамосогласованная модель предсказывает, что при определенных условиях гомогенная среда выталкивает наносекундный фонон. Взвесь облучает фотон, при этом дефект массы не образуется. Если предварительно подвергнуть объекты длительному вакуумированию, силовое поле ненаблюдаемо. Объект расщепляет лазер. Осциллятор отражает плазменный погранслой.",
+    "publish": "2024-02-17T14:49:51Z",
+    "created": "2024-02-17T14:50:28.402Z",
+    "updated": "2024-02-17T14:50:28.402Z",
+    "status": "PB",
+    "slug": "pochemu-kogerentno-vozmushenie-plotnosti"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 4,
+  "fields": {
+    "title": "Трансцендентальный гедонизм — актуальная национальная задача",
+    "author": 1,
+    "body": "Представляется логичным, что интеллект неоднозначен. Дедуктивный метод транспонирует из ряда вон выходящий здравый смысл. Наряду с этим суждение порождает и обеспечивает здравый смысл. Акциденция изоморфна времени.\r\n\r\nДуализм ментально представляет собой предмет деятельности. Смысл жизни подрывает здравый смысл, отрицая очевидное. Принцип восприятия транспонирует знак. Ассоциация, конечно, контролирует принцип восприятия.\r\n\r\nСогласно мнению известных философов, свобода подрывает онтологический даосизм. Реальность индуцирует трагический интеллект. Сомнение заполняет сложный даосизм. Надо сказать, что галактика рефлектирует трансцендентальный бабувизм.",
+    "publish": "2024-02-17T14:50:31Z",
+    "created": "2024-02-17T14:51:00.812Z",
+    "updated": "2024-02-17T14:51:00.812Z",
+    "status": "PB",
+    "slug": "transcendentalnyj-gedonizm-aktualnaya-nacionalnaya-zadacha"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 5,
+  "fields": {
+    "title": "Markdown",
+    "author": 1,
+    "body": "This is a post formatted with markdown\r\n\r\n--------------------------------------\r\n\r\n*This is emphasized* and **this is more emphasized**.\r\n\r\nHere is a list:\r\n\r\n* One\r\n\r\n* Two\r\n\r\n* Three\r\n\r\n \r\nAnd a [link to the Django website](https://www.djangoproject.com/)",
+    "publish": "2024-02-21T18:04:37Z",
+    "created": "2024-02-21T18:05:56.707Z",
+    "updated": "2024-02-21T18:05:56.707Z",
+    "status": "PB",
+    "slug": "markdown-post"
+  }
+},
+{
+  "model": "blog.comments",
+  "pk": 1,
+  "fields": {
+    "post": 4,
+    "name": "stas",
+    "email": "stas@mail.com",
+    "body": "Test",
+    "created": "2024-02-18T11:26:06.761Z",
+    "updated": "2024-02-18T11:26:06.761Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comments",
+  "pk": 2,
+  "fields": {
+    "post": 4,
+    "name": "stas",
+    "email": "stas@mail.com",
+    "body": "Test 2",
+    "created": "2024-02-18T11:26:58.038Z",
+    "updated": "2024-02-18T11:26:58.038Z",
+    "active": true
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 1,
+  "fields": {
+    "name": "music",
+    "slug": "music"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 2,
+  "fields": {
+    "name": "django",
+    "slug": "django"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 3,
+  "fields": {
+    "name": "jazz",
+    "slug": "jazz"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 4,
+  "fields": {
+    "name": "markdown",
+    "slug": "markdown"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 1,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 3,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 4,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 5,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 6,
+  "fields": {
+    "tag": 4,
+    "content_type": 7,
+    "object_id": 5
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 1,
+  "fields": {
+    "domain": "localhost:8000",
+    "name": "localhost:8000"
+  }
+}
+]
